@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:paddingHorizontal="16dp"
+    tools:context=".faqs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions (FAQs)"
+            android:textSize="22sp"
+            android:fontFamily="@font/font10"
+            android:textColor="@color/bluedard"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Image -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/img_21"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"/>
+
+        <!-- FAQ Container -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- FAQ 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. What is a GPA calculator?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A GPA calculator is a tool used to compute Grade Point Average (GPA), which is a numerical representation of a student's academic performance. It helps determine the overall average of grades earned in courses."
+                    android:textSize="14sp"
+                    android:textColor="@color/bluedard"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="2sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. How is GPA calculated?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GPA is calculated by multiplying the grade points for each course by its credit hours, summing these products, and then dividing by the total credit hours attempted."
+                    android:textSize="14sp"
+                    android:textColor="@color/bluedard"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="2sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. What is the difference between GPA and CGPA?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GPA (Grade Point Average) is calculated for a single semester, while CGPA (Cumulative Grade Point Average) is the average of GPA across all semesters completed."
+                    android:textSize="14sp"
+                    android:textColor="@color/bluedard"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="2sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. What grading system does UOS use?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="University of Sargodha uses a 4.0 grading scale with letter grades A, B, C, D, and F. Grade points range from 0.00 to 4.00."
+                    android:textSize="14sp"
+                    android:textColor="@color/bluedard"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="2sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. What is the passing grade at UOS?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The passing grade for a course is C grade (50% marks) or above. D grade (40-49%) is considered fail and requires re-examination."
+                    android:textSize="14sp"
+                    android:textColor="@color/bluedard"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="2sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 6 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. How do credit hours affect GPA?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Credit hours determine the weight of each course in GPA calculation. Courses with more credit hours have greater impact on your overall GPA."
+                    android:textSize="14sp"
+                    android:textColor="@color/bluedard"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="2sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 7 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7. What is a good GPA at UOS?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A GPA of 3.00 or above is considered good. 3.50+ is very good, and 3.75+ is excellent. 4.00 represents perfect performance."
+                    android:textSize="14sp"
+                    android:textColor="@color/bluedard"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="2sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 8 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8. Can I improve my GPA after a bad semester?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes, you can improve your GPA by performing better in subsequent semesters. Your CGPA will reflect the cumulative performance over all semesters."
+                    android:textSize="14sp"
+                    android:textColor="@color/bluedard"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="2sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 9 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9. What happens if I fail a course?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="If you fail a course (F grade), you must repeat it. The new grade will replace the F grade in GPA calculation, but both attempts may appear on transcript."
+                    android:textSize="14sp"
+                    android:textColor="@color/bluedard"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="2sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 10 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10. How accurate is this GPA calculator?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This calculator follows the official University of Sargodha grading system and provides accurate results based on current grading policies."
+                    android:textSize="14sp"
+                    android:textColor="@color/bluedard"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="2sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 11 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11. Do I need internet to use this app?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No, this app works completely offline. You can calculate your GPA anytime, anywhere without internet connection."
+                    android:textSize="14sp"
+                    android:textColor="@color/bluedard"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="2sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 12 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12. How do I calculate CGPA?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CGPA is calculated by adding the total grade points of all semesters and dividing by total credit hours of all semesters. Use our CGPA calculator feature for accurate results."
+                    android:textSize="14sp"
+                    android:textColor="@color/bluedard"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="2sp"/>
+            </LinearLayout>
+
+            <!-- FAQ 13 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13. What special grades does UOS use?"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="UOS uses special grades: I (Incomplete), W (Withdrawal), R (Repeat), RL (Result Late). These do not affect GPA but appear on transcript."
+                    android:textSize="14sp"
+                    android:textColor="@color/bluedard"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="2sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:text="About Us"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font10"
+            android:background="@drawable/buttoncgpa"
+            android:paddingHorizontal="32dp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+</ScrollView>

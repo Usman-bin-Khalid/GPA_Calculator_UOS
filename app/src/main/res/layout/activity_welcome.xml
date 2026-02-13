@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_3"
+    android:gravity="center_horizontal"
+    tools:context=".welcome_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:paddingHorizontal="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GPA/CGPA Calculator"
+                    android:fontFamily="@font/font10"
+                    android:textSize="22sp"
+                    android:textColor="@color/bluedard"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University Of Sargodha"
+                    android:textColor="@color/bluedard"
+                    android:textSize="18sp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/font10"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="40dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_10"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Academic Performance at Your Fingertips\n\nEmbark on a seamless journey to compute your Grade Point Average (GPA) with our user-friendly GPA calculator. Whether you're a student navigating through different courses or an academic enthusiast curious about your standing, our tool is designed to simplify the GPA calculation process for you."
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:lineSpacingExtra="4sp"
+                android:fontFamily="@font/font10"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/gpt"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:text="GPA"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:background="@drawable/welcombutton"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/font10"/>
+
+                <Space
+                    android:layout_width="16dp"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/cgpa"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:text="CGPA"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:background="@drawable/welcombutton"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/font10"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="40dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/str"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:text="Grade Table"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:background="@drawable/welcombutton"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/font10"/>
+
+                <Space
+                    android:layout_width="16dp"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/itfive"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:text="FAQs"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:background="@drawable/welcombutton"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/font10"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

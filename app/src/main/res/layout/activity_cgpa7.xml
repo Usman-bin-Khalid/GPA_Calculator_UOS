@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_11"
+    android:orientation="vertical"
+    tools:context=".cgpa7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="16dp">
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CGPA Calculator\nUniversity Of Sargodha"
+                android:textAlignment="center"
+                android:textColor="@color/bluedard"
+                android:textSize="20sp"
+                android:fontFamily="@font/font10"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Logo -->
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img_21"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Input Fields -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Row 1 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <EditText
+                        android:id="@+id/e1"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:hint="Semester 1 GPA"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center"
+                        android:background="@drawable/first"
+                        android:layout_margin="6dp"/>
+
+                    <EditText
+                        android:id="@+id/e2"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:hint="Semester 2 GPA"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center"
+                        android:background="@drawable/first"
+                        android:layout_margin="6dp"/>
+                </LinearLayout>
+
+                <!-- Row 2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <EditText
+                        android:id="@+id/e3"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:hint="Semester 3 GPA"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center"
+                        android:background="@drawable/first"
+                        android:layout_margin="6dp"/>
+
+                    <EditText
+                        android:id="@+id/e4"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:hint="Semester 4 GPA"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center"
+                        android:background="@drawable/first"
+                        android:layout_margin="6dp"/>
+                </LinearLayout>
+
+                <!-- Row 3 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <EditText
+                        android:id="@+id/e5"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:hint="Semester 5 GPA"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center"
+                        android:background="@drawable/first"
+                        android:layout_margin="6dp"/>
+
+                    <EditText
+                        android:id="@+id/e6"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:hint="Semester 6 GPA"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center"
+                        android:background="@drawable/first"
+                        android:layout_margin="6dp"/>
+                </LinearLayout>
+
+                <!-- Row 4 -->
+                <EditText
+                    android:id="@+id/e7"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:hint="Semester 7 GPA"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    android:background="@drawable/first"
+                    android:layout_margin="6dp"/>
+
+            </LinearLayout>
+
+            <!-- Result -->
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="24dp"/>
+
+            <!-- Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="CGPA"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:background="@drawable/fourth"
+                android:layout_marginTop="24dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

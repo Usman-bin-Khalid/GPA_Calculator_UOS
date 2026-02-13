@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_1"
+    tools:context=".subjects5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:paddingHorizontal="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GPA Calculator\nUniversity Of Sargodha"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:fontFamily="@font/font10"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:src="@drawable/img_21"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:adjustViewBounds="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/first"
+                    android:text="Subjects"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="8dp"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="8dp"
+                    android:background="@drawable/second"
+                    android:text="Marks"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/font10"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/third"
+                    android:text="Credit Hours"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="8dp"
+                    android:fontFamily="@font/font10"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/first"
+                    android:hint="Enter Sub_1"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="8dp"
+                    android:inputType="text"/>
+
+                <EditText
+                    android:id="@+id/m1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="8dp"
+                    android:background="@drawable/second"
+                    android:hint="Enter Marks"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/c1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/third"
+                    android:hint="Enter CH"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="8dp"
+                    android:inputType="numberDecimal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/first"
+                    android:hint="Enter Sub_2"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="8dp"
+                    android:inputType="text"/>
+
+                <EditText
+                    android:id="@+id/m2"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="8dp"
+                    android:background="@drawable/second"
+                    android:hint="Enter Marks"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/c2"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/third"
+                    android:hint="Enter CH"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="8dp"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/first"
+                    android:hint="Enter Sub_3"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="8dp"
+                    android:inputType="text"/>
+
+                <EditText
+                    android:id="@+id/m3"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="8dp"
+                    android:background="@drawable/second"
+                    android:hint="Enter Marks"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/c3"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/third"
+                    android:hint="Enter CH"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="8dp"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/first"
+                    android:hint="Enter Sub_4"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="8dp"
+                    android:inputType="text"/>
+
+                <EditText
+                    android:id="@+id/m4"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="8dp"
+                    android:background="@drawable/second"
+                    android:hint="Enter Marks"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/c4"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/third"
+                    android:hint="Enter CH"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="8dp"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="40dp">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/first"
+                    android:hint="Enter Sub_5"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="8dp"
+                    android:inputType="text"/>
+
+                <EditText
+                    android:id="@+id/m5"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="8dp"
+                    android:background="@drawable/second"
+                    android:hint="Enter Marks"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/c5"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/third"
+                    android:hint="Enter CH"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="8dp"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="60dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/font10"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/gpa"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Semester GPA"
+                android:background="@drawable/buttoncgpa"
+                android:textColor="@color/white"
+                android:layout_marginBottom="40dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/font10"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

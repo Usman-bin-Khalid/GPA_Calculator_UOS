@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_1"
+    android:gravity="center_horizontal"
+    tools:context=".introduction">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp">
+
+            <!-- Title Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GPA/CGPA Calculator"
+                    android:fontFamily="@font/font10"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="University Of Sargodha"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/font10"/>
+            </LinearLayout>
+
+            <!-- Logo Image -->
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="40dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/img_21"/>
+
+            <!-- Description Text -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We appreciate your trust in GPA Calculator University of Sargodha. Our team is dedicated to providing you with a top-notch experience, and we look forward to being part of your GPA and CGPA calculation."
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:lineSpacingExtra="4sp"
+                android:fontFamily="@font/font10"/>
+
+            <!-- Contact Information -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/font10"
+                    android:drawableStart="@drawable/app2"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="4dp"
+                    android:text="App name : GPA Calculator UOS"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/font10"
+                    android:drawableStart="@drawable/person2"
+                    android:textColor="@color/white"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="4dp"
+                    android:text="Made by : Tayyaba Manzoor"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Phone : +92 325 8582887"
+                    android:fontFamily="@font/font10"
+                    android:drawableStart="@drawable/phone2"
+                    android:drawablePadding="12dp"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="4dp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Email : tayyabamanzoor@gmail.com"
+                    android:drawableStart="@drawable/baseline_email_24"
+                    android:drawablePadding="12dp"
+                    android:fontFamily="@font/font10"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="4dp"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Address : Sargodha, Punjab, Pakistan"
+                    android:drawableStart="@drawable/location4"
+                    android:drawablePadding="12dp"
+                    android:fontFamily="@font/font10"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="4dp"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <!-- Start Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Start"
+                android:fontFamily="@font/font10"
+                android:background="@drawable/buttoncgpa"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:id="@+id/two"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
