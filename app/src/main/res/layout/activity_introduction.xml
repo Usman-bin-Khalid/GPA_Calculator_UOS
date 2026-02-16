@@ -105,14 +105,14 @@
                     android:drawablePadding="12dp"
                     android:gravity="center_vertical"
                     android:paddingVertical="4dp"
-                    android:text="Made by : Tayyaba Manzoor"/>
+                    android:text="Made by : Usman Khalid"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_marginBottom="8dp"
-                    android:text="Phone : +92 325 8582887"
+                    android:text="Phone : +92 320 7539323"
                     android:fontFamily="@font/font10"
                     android:drawableStart="@drawable/phone2"
                     android:drawablePadding="12dp"
@@ -125,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_marginBottom="8dp"
-                    android:text="Email : tayyabamanzoor@gmail.com"
+                    android:text="Email : usmanbinkhalidpk@gmail.com"
                     android:drawableStart="@drawable/baseline_email_24"
                     android:drawablePadding="12dp"
                     android:fontFamily="@font/font10"
